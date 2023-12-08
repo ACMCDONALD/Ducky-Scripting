@@ -1,0 +1,74 @@
+REM_BLOCK
+ Script: g00s3s3ec
+ Author: Andrew McDonald
+ Created: June 13, 2023
+END_REM
+
+REM wait for USB to be detected
+DELAY 2500
+
+REM open Run
+GUI r
+
+REM wait for run dialog to open
+DELAY 500
+
+REM open Notepad
+STRING notepad
+ENTER
+
+REM wait for notepad to open -- deploy payload
+DELAY 1500
+STRING         _   _  ___  _   _ _  ___ 
+ENTER
+STRING       | | | |/ _ \| \ | | |/ / |
+ENTER
+STRING       | |_| | | | |  \| | ' /| |
+ENTER
+STRING       |  _  | |_| | |\  | . \|_|
+ENTER
+STRING       ___  |_| |_|\___/|_| \_|_|\_(_)
+ENTER
+STRING                               ,-""   `.
+ENTER
+STRING                             ,'  _   e )`-._
+ENTER
+STRING                            /  ,' `-._<.===-'
+ENTER
+STRING                           /  /
+ENTER
+STRING                          /  ;
+ENTER
+STRING              _          /   ;
+ENTER
+STRING (`._    _.-"" ""--..__,'    |
+ENTER
+STRING <_  `-""                     \
+ENTER
+STRING  <`-                          :
+ENTER
+STRING   (__   <__.                  ;
+ENTER
+STRING     `-.   '-.__.      _.'    /
+ENTER
+STRING        \      `-.__,-'    _,'
+ENTER
+STRING            ""._\__,'< <----
+ENTER
+STRING                 | |  `----.`.
+ENTER
+STRING                 | |        \ `.
+ENTER
+STRING                 ; ---      \-``
+ENTER
+STRING                 \   --<
+ENTER
+STRING                  `.`.<
+ENTER
+STRING                    `-'
+
+REM save the file
+CONTROL s
+DELAY 500
+STRING youve-been-goosed.txt
+ENTER`
